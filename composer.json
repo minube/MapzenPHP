@@ -1,0 +1,26 @@
+{
+  "name": "minube/mapzen-php",
+  "homepage": "http://minube.com",
+  "description": "Mapzen SDK for PHP - Use Mapzen in your PHP project",
+  "keywords": [
+    "mapzen",
+    "sdk"
+  ],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Minube",
+      "homepage": "http://www.minube.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mapzen\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "guzzle/guzzle": "~3.9"
+  }
+}
